@@ -1,0 +1,124 @@
+ {
+    "results": [
+      {
+        "name": "Olivia",
+        "maxHP": 1480,
+        "maxATK": 7800,
+        "element": "Dark",
+        "race": "Primal",
+        "style": "Special",
+        "specialty": "Sabre",
+        "gender": "Female",
+        "voice_actor": "Maaya Sakamoto",
+        "imgUrl": "https://gbf.wiki/images/b/bb/Npc_zoom_3040145000_01.png"
+      },
+      {
+        "name": "Vikala",
+        "maxHP": 1500,
+        "maxATK": 8500,
+        "element": "Dark",
+        "race": "Human",
+        "style": "Balanced",
+        "specialty": "Axe & Melee",
+        "gender": "Female",
+        "voice_actor": "Atsumi Tanezaki",
+        "imgUrl": "https://gbf.wiki/images/3/3b/Npc_zoom_3040252000_01.png"
+      },
+      {
+        "name": "Ferry",
+        "maxHP": 1550,
+        "maxATK": 7100,
+        "element": "Dark",
+        "race": "Erune",
+        "style": "Special",
+        "specialty": "Dagger",
+        "gender": "Female",
+        "voice_actor": "Madoka Yonezawa",
+        "imgUrl": "https://gbf.wiki/images/e/e1/Npc_zoom_3040209000_01.png"
+      },
+      {
+        "name": "Seox",
+        "maxHP": 1666,
+        "maxATK": 6666,
+        "element": "Dark",
+        "race": "Erune",
+        "style": "Attack",
+        "specialty": "Melee",
+        "gender": "Male",
+        "voice_actor": "Nobuyuki Hiyama",
+        "imgUrl": "https://gbf.wiki/images/7/76/Npc_zoom_3040035000_01.png"
+      },
+      {
+        "name": "Cagliostro",
+        "maxHP": 1600,
+        "maxATK": 7000,
+        "element": "Earth",
+        "race": "Human",
+        "style": "Heal",
+        "specialty": "Staff",
+        "gender": "Female",
+        "voice_actor": "Sakura Tange",
+        "imgUrl": "https://gbf.wiki/images/f/ff/Npc_zoom_3040009000_01.png"
+      },
+      {
+        "name": "Medusa",
+        "maxHP": 1010,
+        "maxATK": 9200,
+        "element": "Earth",
+        "race": "Primal",
+        "style": "Attack",
+        "specialty": "Melee",
+        "gender": "Female",
+        "voice_actor": "Kaori Mizuhashi",
+        "imgUrl": "https://gbf.wiki/images/e/e0/Npc_zoom_3040123000_01.png"
+      },
+      {
+        "name": "Lucio",
+        "maxHP": 1660,
+        "maxATK": 7700,
+        "element": "Light",
+        "race": "Other",
+        "style": "Balanced",
+        "specialty": "Katana & Sabre",
+        "gender": "Male",
+        "voice_actor": "Takahiro Sakurai",
+        "imgUrl": "https://gbf.wiki/images/d/d6/Npc_zoom_3040106000_01.png"
+      },
+      {
+        "name": "Albert",
+        "maxHP": 1280,
+        "maxATK": 4800,
+        "element": "Light",
+        "race": "Human",
+        "style": "Attack",
+        "specialty": "Sabre",
+        "gender": "Male",
+        "voice_actor": "Hikaru Midorikawa",
+        "imgUrl": "https://gbf.wiki/images/2/22/Npc_zoom_3040045000_01.png"
+      },
+      {
+        "name": "Pholia",
+        "maxHP": 1166,
+        "maxATK": 7899,
+        "element": "Water",
+        "race": "Erune",
+        "style": "Special",
+        "specialty": "Staff & Melee",
+        "gender": "Female",
+        "voice_actor": "Maaya Uchida",
+        "imgUrl": "https://gbf.wiki/images/6/60/Npc_zoom_3040181000_01.png"
+      },
+      {
+        "name": "Monika",
+        "maxHP": 1400,
+        "maxATK": 9000,
+        "element": "Wind",
+        "race": "Human",
+        "style": "Balanced",
+        "specialty": "Sabre & Katana",
+        "gender": "Female",
+        "voice_Actor": "Ayumi Tsuji",
+        "imgUrl": "https://gbf.wiki/images/0/04/Npc_zoom_3040238000_01.png "
+      }
+    ]
+  }
