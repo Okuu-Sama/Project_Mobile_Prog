@@ -10,7 +10,7 @@
         "specialty": "Sabre",
         "gender": "Female",
         "voice_actor": "Maaya Sakamoto",
-        "imgUrl": "https://gbf.wiki/images/b/bb/Npc_zoom_3040145000_01.png"
+        "imgUrl": "https://gbf.wiki/images/b/bb/Npc_zoom_3040145000_01.png",
         "iconPath": "b/bc/Npc_m_3040145000_01.jpg"
       },
       {
@@ -23,7 +23,7 @@
         "specialty": "Axe & Melee",
         "gender": "Female",
         "voice_actor": "Atsumi Tanezaki",
-        "imgUrl": "https://gbf.wiki/images/3/3b/Npc_zoom_3040252000_01.png"
+        "imgUrl": "https://gbf.wiki/images/3/3b/Npc_zoom_3040252000_01.png",
         "iconPath": "8/85/Npc_m_3040252000_01.jpg"
       },
       {
@@ -36,7 +36,7 @@
         "specialty": "Dagger",
         "gender": "Female",
         "voice_actor": "Madoka Yonezawa",
-        "imgUrl": "https://gbf.wiki/images/e/e1/Npc_zoom_3040209000_01.png"
+        "imgUrl": "https://gbf.wiki/images/e/e1/Npc_zoom_3040209000_01.png",
         "iconPath": "8/86/Npc_m_3040209000_01.jpg"
       },
       {
@@ -49,7 +49,7 @@
         "specialty": "Melee",
         "gender": "Male",
         "voice_actor": "Nobuyuki Hiyama",
-        "imgUrl": "https://gbf.wiki/images/7/76/Npc_zoom_3040035000_01.png"
+        "imgUrl": "https://gbf.wiki/images/7/76/Npc_zoom_3040035000_01.png",
         "iconPath": "7/73/Npc_m_3040035000_01.jpg"
       },
       {
@@ -62,7 +62,7 @@
         "specialty": "Staff",
         "gender": "Female",
         "voice_actor": "Sakura Tange",
-        "imgUrl": "https://gbf.wiki/images/f/ff/Npc_zoom_3040009000_01.png"
+        "imgUrl": "https://gbf.wiki/images/f/ff/Npc_zoom_3040009000_01.png",
         "iconPath": "8/8e/Npc_m_3040009000_01.jpg"
       },
       {
@@ -75,7 +75,7 @@
         "specialty": "Melee",
         "gender": "Female",
         "voice_actor": "Kaori Mizuhashi",
-        "imgUrl": "https://gbf.wiki/images/e/e0/Npc_zoom_3040123000_01.png"
+        "imgUrl": "https://gbf.wiki/images/e/e0/Npc_zoom_3040123000_01.png",
         "iconPath": "2/25/Npc_m_3040123000_01.jpg"
       },
       {
@@ -88,7 +88,7 @@
         "specialty": "Katana & Sabre",
         "gender": "Male",
         "voice_actor": "Takahiro Sakurai",
-        "imgUrl": "https://gbf.wiki/images/d/d6/Npc_zoom_3040106000_01.png"
+        "imgUrl": "https://gbf.wiki/images/d/d6/Npc_zoom_3040106000_01.png",
         "iconPath": "d/de/Npc_m_3040106000_01.jpg"
       },
       {
@@ -101,7 +101,7 @@
         "specialty": "Sabre",
         "gender": "Male",
         "voice_actor": "Hikaru Midorikawa",
-        "imgUrl": "https://gbf.wiki/images/2/22/Npc_zoom_3040045000_01.png"
+        "imgUrl": "https://gbf.wiki/images/2/22/Npc_zoom_3040045000_01.png",
         "iconPath": "5/5d/Npc_m_3040045000_01.jpg"
       },
       {
@@ -114,7 +114,7 @@
         "specialty": "Staff & Melee",
         "gender": "Female",
         "voice_actor": "Maaya Uchida",
-        "imgUrl": "https://gbf.wiki/images/6/60/Npc_zoom_3040181000_01.png"
+        "imgUrl": "https://gbf.wiki/images/6/60/Npc_zoom_3040181000_01.png",
         "iconPath": "3/35/Npc_m_3040181000_01.jpg"
       },
       {
@@ -127,7 +127,7 @@
         "specialty": "Sabre & Katana",
         "gender": "Female",
         "voice_Actor": "Ayumi Tsuji",
-        "imgUrl": "https://gbf.wiki/images/0/04/Npc_zoom_3040238000_01.png"
+        "imgUrl": "https://gbf.wiki/images/0/04/Npc_zoom_3040238000_01.png",
         "iconPath": "f/fe/Npc_m_3040238000_01.jpg"
       }
     ]
