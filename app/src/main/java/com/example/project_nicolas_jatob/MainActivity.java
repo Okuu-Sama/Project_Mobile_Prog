@@ -9,13 +9,11 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.project_nicolas_jatob.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
-import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -37,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         sharedPreferences = getSharedPreferences("mobile_project", Context.MODE_PRIVATE);
@@ -79,7 +78,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         // define an adapter
-        mAdapter = new ListAdapter(granblueList);
+        mAdapter = new ListAdapter(granblueList, new ListAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(Granblue_Character item) {
+                navigateToDetails(item);
+            }
+        });
         recyclerView.setAdapter(mAdapter);
     }
 
@@ -128,5 +132,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void showError() {
         Toast.makeText(getApplicationContext(), "API Error", Toast.LENGTH_SHORT).show();
+    }
+
+    public void navigateToDetails (Granblue_Character character)
+    {
+        Toast.makeText(getApplicationContext(), "TODO NAVIGATE", Toast.LENGTH_SHORT).show();
     }
 }

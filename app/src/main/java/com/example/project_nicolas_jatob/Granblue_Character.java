@@ -11,6 +11,7 @@ public class Granblue_Character {
     private String gender;
     private String voice_actor;
     private String imgUrl;
+    private String iconPath;
 
     public String getName() {
         return name;
@@ -50,5 +51,10 @@ public class Granblue_Character {
 
     public String getImgUrl() {
         return imgUrl;
+    }
+
+    public String getIconPath()
+    {
+        return iconPath;
     }
 }
