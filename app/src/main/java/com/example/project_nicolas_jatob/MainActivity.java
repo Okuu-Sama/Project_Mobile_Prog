@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -136,6 +137,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void navigateToDetails (Granblue_Character character)
     {
-        Toast.makeText(getApplicationContext(), "TODO NAVIGATE", Toast.LENGTH_SHORT).show();
+        Intent myIntent = new Intent(MainActivity.this, DetailActivity.class);
+        myIntent.putExtra("characterKeyName", character.getName());
+        myIntent.putExtra("characterKeyElement", character.getElement());
+        MainActivity.this.startActivity(myIntent);
     }
 }
