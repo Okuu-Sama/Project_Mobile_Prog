@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new ListAdapter(granblueList, new ListAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Granblue_Character item) {
-                navigateToDetails(item);
+                controller.onItemClick(item);
             }
         });
         recyclerView.setAdapter(mAdapter);

@@ -92,7 +92,7 @@ public class MainController {
 
     public void onItemClick(Granblue_Character character)
     {
-
+        view.navigateToDetails(character);
     }
 
     public void onButtonAClick()
