@@ -18,6 +18,7 @@ Cliquer sur un des personnages affichés proposera à l'utilisateur certaines in
 - Ecran avec une list d'éléments
 - Ecran avec les détails d'un élément
 - Ecran de détails scrollable
+- Couleur de background adaptatif en fonction du personnage sélectionné
 - Appel WebService à une API Rest
 - Stockage de données en cache
 - Architecture MVC
