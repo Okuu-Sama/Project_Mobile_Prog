@@ -1,17 +1,20 @@
 package com.example.project_nicolas_jatob;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.project_nicolas_jatob.presentation.model.Granblue_Character;
 import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends AppCompatActivity {
 
+    private ConstraintLayout layout;
     private ImageView characterImage;
     private TextView txtName;
     private TextView txtAtk;
@@ -28,6 +31,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        layout = findViewById(R.id.detailLayout);
         txtName = findViewById(R.id.charactername_txt);
         txtAtk = findViewById(R.id.characteratk_txt);
         txtHp = findViewById(R.id.characterhp_txt);
@@ -55,5 +59,29 @@ public class DetailActivity extends AppCompatActivity {
         txtSpecialty.setText(character.getSpecialty());
         txtGender.setText(character.getGender());
         txtVoice.setText(character.getVoice_actor());
+
+        int color = Color.WHITE;
+        switch(character.getElement())
+        {
+            case "Dark":
+                color = getResources().getColor(R.color.colorDarkElement);
+                break;
+            case "Light":
+                color = getResources().getColor(R.color.colorLightElement);
+                break;
+            case "Fire":
+                color = getResources().getColor(R.color.colorFireElement);
+                break;
+            case "Water":
+                color = getResources().getColor(R.color.colorWaterElement);
+                break;
+            case "Earth":
+                color = getResources().getColor(R.color.colorEarthElement);
+                break;
+            case "Wind":
+                color = getResources().getColor(R.color.colorWindElement);
+                break;
+        }
+        layout.setBackgroundColor(color);
     }
 }
