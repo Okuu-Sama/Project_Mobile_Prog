@@ -57,14 +57,14 @@ public class DetailActivity extends AppCompatActivity {
     public void showDetail(Granblue_Character character) {
         Picasso.get().load(character.getImgUrl()).into(characterImage);
         txtName.setText(character.getName());
-        txtAtk.setText(String.valueOf(character.getMaxATK()));
-        txtHp.setText(String.valueOf(character.getMaxHP()));
-        txtElement.setText(character.getElement());
-        txtRace.setText(character.getRace());
-        txtStyle.setText(character.getStyle());
-        txtSpecialty.setText(character.getSpecialty());
-        txtGender.setText(character.getGender());
-        txtVoice.setText(character.getVoice_actor());
+        txtAtk.setText(String.format("MAX ATK: %s", String.valueOf(character.getMaxATK())));
+        txtHp.setText(String.format("MAX HP: %s", String.valueOf(character.getMaxHP())));
+        txtElement.setText(String.format("Element: %s", character.getElement()));
+        txtRace.setText(String.format("Race: %s", character.getRace()));
+        txtStyle.setText(String.format("Style: %s", character.getStyle()));
+        txtSpecialty.setText(String.format("Specialty: %s", character.getSpecialty()));
+        txtGender.setText(String.format("Gender: %s", character.getGender()));
+        txtVoice.setText(String.format("Voice Actor: %s", character.getVoice_actor()));
 
         int color = Color.WHITE;
         switch(character.getElement())
