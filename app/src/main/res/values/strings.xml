@@ -11,4 +11,6 @@
     <string name="textspeciality">TextSpeciality</string>
     <string name="textvoice">TextSeyuu</string>
     <string name="textgender">TextGender</string>
+    <string name="splash_text">My GBF</string>
+    <string name="splashScreenDescription">App Splash Screen</string>
 </resources>
