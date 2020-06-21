@@ -10,6 +10,11 @@ public class DetailController {
 
     private DetailActivity view;
 
+    public DetailController(DetailActivity detailActivity)
+    {
+        view = detailActivity;
+    }
+
     public void onStart(Intent detailIntent)
     {
         String characterJson = detailIntent.getStringExtra("characterKey");

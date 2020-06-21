@@ -36,6 +36,8 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        controller = new DetailController(this);
+
         layout = findViewById(R.id.detailLayout);
         txtName = findViewById(R.id.charactername_txt);
         txtAtk = findViewById(R.id.characteratk_txt);
@@ -47,7 +49,7 @@ public class DetailActivity extends AppCompatActivity {
         txtSpecialty = findViewById(R.id.characterspecialty_txt);
         txtGender = findViewById(R.id.charactergender_txt);
         txtVoice = findViewById(R.id.charactervoice_txt);
-        
+
         Intent intent = getIntent();
         controller.onStart(intent);
     }
