@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.project_nicolas_jatob.DetailActivity;
 import com.example.project_nicolas_jatob.R;
 import com.example.project_nicolas_jatob.Singletons;
 import com.example.project_nicolas_jatob.presentation.controller.MainController;
