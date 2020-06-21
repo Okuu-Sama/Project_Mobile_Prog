@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        // define an adapter
         mAdapter = new ListAdapter(granblueList, new ListAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Granblue_Character item) {

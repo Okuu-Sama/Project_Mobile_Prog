@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.project_nicolas_jatob.R;
-import com.example.project_nicolas_jatob.Singletons;
 import com.example.project_nicolas_jatob.presentation.controller.DetailController;
 import com.example.project_nicolas_jatob.presentation.model.Granblue_Character;
 import com.squareup.picasso.Picasso;
