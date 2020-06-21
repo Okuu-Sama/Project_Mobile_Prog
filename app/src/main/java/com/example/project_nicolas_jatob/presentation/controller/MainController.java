@@ -94,9 +94,4 @@ public class MainController {
     {
         view.navigateToDetails(character);
     }
-
-    public void onButtonAClick()
-    {
-
-    }
 }

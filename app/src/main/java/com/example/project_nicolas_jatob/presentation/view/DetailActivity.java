@@ -11,6 +11,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.project_nicolas_jatob.R;
 import com.example.project_nicolas_jatob.Singletons;
+import com.example.project_nicolas_jatob.presentation.controller.DetailController;
 import com.example.project_nicolas_jatob.presentation.model.Granblue_Character;
 import com.squareup.picasso.Picasso;
 
@@ -28,6 +29,8 @@ public class DetailActivity extends AppCompatActivity {
     private TextView txtGender;
     private TextView txtVoice;
 
+    private DetailController controller;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,13 +47,12 @@ public class DetailActivity extends AppCompatActivity {
         txtSpecialty = findViewById(R.id.characterspecialty_txt);
         txtGender = findViewById(R.id.charactergender_txt);
         txtVoice = findViewById(R.id.charactervoice_txt);
+        
         Intent intent = getIntent();
-        String characterJson = intent.getStringExtra("characterKey");
-        Granblue_Character character = Singletons.getGson().fromJson(characterJson,Granblue_Character.class);
-        showDetail(character);
+        controller.onStart(intent);
     }
 
-    private void showDetail(Granblue_Character character) {
+    public void showDetail(Granblue_Character character) {
         Picasso.get().load(character.getImgUrl()).into(characterImage);
         txtName.setText(character.getName());
         txtAtk.setText(String.valueOf(character.getMaxATK()));
