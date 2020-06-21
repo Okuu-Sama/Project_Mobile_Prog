@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Project_Nicolas_JATOB</string>
     <string name="detail_text_description">Ecran Detail</string>
+    <string name="character_image">character_image</string>
+    <string name="textname">TextName</string>
+    <string name="textmaxatk">TextMAXATK</string>
+    <string name="textmaxhp">TextMAXHP</string>
+    <string name="textrace">textRace</string>
+    <string name="textelement">TextElement</string>
+    <string name="textstyle">TextStyle</string>
+    <string name="textspeciality">TextSpeciality</string>
+    <string name="textvoice">TextSeyuu</string>
+    <string name="textgender">TextGender</string>
 </resources>

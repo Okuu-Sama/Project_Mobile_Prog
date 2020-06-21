@@ -1,4 +1,4 @@
-package com.example.project_nicolas_jatob;
+package com.example.project_nicolas_jatob.presentation.model;
 
 public class Granblue_Character {
     private String name;

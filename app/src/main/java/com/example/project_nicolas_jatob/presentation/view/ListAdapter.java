@@ -1,4 +1,4 @@
-package com.example.project_nicolas_jatob;
+package com.example.project_nicolas_jatob.presentation.view;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.project_nicolas_jatob.R;
+import com.example.project_nicolas_jatob.presentation.model.Granblue_Character;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

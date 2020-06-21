@@ -1,4 +1,4 @@
-package com.example.project_nicolas_jatob;
+package com.example.project_nicolas_jatob.presentation.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -10,6 +10,12 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.project_nicolas_jatob.Constants;
+import com.example.project_nicolas_jatob.DetailActivity;
+import com.example.project_nicolas_jatob.R;
+import com.example.project_nicolas_jatob.data.GranblueApi;
+import com.example.project_nicolas_jatob.presentation.model.Granblue_Character;
+import com.example.project_nicolas_jatob.presentation.model.RestGranblueResponse;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -31,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private ListAdapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
     private SharedPreferences sharedPreferences;
-    private Gson gson;
+    public static Gson gson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,8 +144,7 @@ public class MainActivity extends AppCompatActivity {
     public void navigateToDetails (Granblue_Character character)
     {
         Intent myIntent = new Intent(MainActivity.this, DetailActivity.class);
-        myIntent.putExtra("characterKeyName", character.getName());
-        myIntent.putExtra("characterKeyElement", character.getElement());
+        myIntent.putExtra("characterKey", gson.toJson(character));
         MainActivity.this.startActivity(myIntent);
     }
 }

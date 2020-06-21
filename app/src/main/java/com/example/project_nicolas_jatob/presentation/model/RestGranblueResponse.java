@@ -1,4 +1,4 @@
-package com.example.project_nicolas_jatob;
+package com.example.project_nicolas_jatob.presentation.model;
 
 import java.util.List;
 

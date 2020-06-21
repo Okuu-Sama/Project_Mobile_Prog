@@ -1,8 +1,9 @@
-package com.example.project_nicolas_jatob;
+package com.example.project_nicolas_jatob.data;
+
+import com.example.project_nicolas_jatob.presentation.model.RestGranblueResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 
 public interface GranblueApi {
     @GET("GranblueFantasyapi.json")
