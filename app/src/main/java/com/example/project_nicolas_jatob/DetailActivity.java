@@ -8,7 +8,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project_nicolas_jatob.presentation.model.Granblue_Character;
-import com.example.project_nicolas_jatob.presentation.view.MainActivity;
 import com.squareup.picasso.Picasso;
 
 public class DetailActivity extends AppCompatActivity {
@@ -41,7 +40,7 @@ public class DetailActivity extends AppCompatActivity {
         txtVoice = findViewById(R.id.charactervoice_txt);
         Intent intent = getIntent();
         String characterJson = intent.getStringExtra("characterKey");
-        Granblue_Character character = MainActivity.gson.fromJson(characterJson,Granblue_Character.class);
+        Granblue_Character character = Singletons.getGson().fromJson(characterJson,Granblue_Character.class);
         showDetail(character);
     }
 
